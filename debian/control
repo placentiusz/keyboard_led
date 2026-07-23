@@ -1,0 +1,14 @@
+Source: keyboard-led
+Section: utils
+Priority: optional
+Maintainer: Jacek Wilczynski <jacek@example.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: keyboard-led
+Architecture: all
+Depends: ${misc:Depends}, bash, inotify-tools
+Description: Keep keyboard Scroll Lock LED enabled
+ A small helper script that turns on the keyboard Scroll Lock LED and
+ keeps it on while the device is active.

@@ -1,0 +1,14 @@
+[Unit]
+Description=Keyboard LED On Service
+After=multi-user.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/usr/bin
+ExecStart=/bin/bash /usr/bin/led_on.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

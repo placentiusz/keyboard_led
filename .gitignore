@@ -1,0 +1,18 @@
+# Debian package build artifacts
+.debhelper/
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/keyboard-led/
+debian/keyboard-led.postrm.debhelper
+debian/keyboard-led.substvars
+debian/files
+
+# Generated package artifacts
+*.deb
+*.buildinfo
+*.changes
+
+# Editor / temp files
+*~
+*.swp
+*.tmp
