@@ -1,6 +1,5 @@
 #!/bin/sh
 
-#!/bin/sh
 
 evtest /dev/input/event3 | while read line; do
     case "$line" in
