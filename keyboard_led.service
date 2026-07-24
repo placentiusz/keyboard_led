@@ -5,8 +5,7 @@ After=multi-user.target
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/usr/bin
-ExecStart=/bin/bash /usr/bin/led_on.sh
+ExecStart=/bin/sh /usr/bin/led_on.sh
 Restart=always
 RestartSec=2
 
